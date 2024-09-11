@@ -16,6 +16,7 @@ namespace Work_1
             Console.Write("Введите второе число: ");
             double b = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Сумма чисел равна " + (a + b));
+            Console.WriteLine("Разность чисел равна " + (a - b));
             Console.WriteLine("Для выхода нажмите любую клавишу");
             Console.ReadKey();
         }
